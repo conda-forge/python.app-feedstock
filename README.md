@@ -14,14 +14,16 @@ Summary: Proxy on OS X letting Python libraries hook into the gui event loop
 Current build status
 ====================
 
-Linux: ![](https://cdn.rawgit.com/conda-forge/conda-smithy/90845bba35bec53edac7a16638aa4d77217a3713/conda_smithy/static/disabled.svg)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/python.app-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/python.app-feedstock)
-Windows: ![](https://cdn.rawgit.com/conda-forge/conda-smithy/90845bba35bec53edac7a16638aa4d77217a3713/conda_smithy/static/disabled.svg)
+[![OSX](https://img.shields.io/travis/conda-forge/python.app-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/python.app-feedstock)
+![Linux disabled](https://img.shields.io/badge/linux-disabled-lightgrey.svg)
+![Windows disabled](https://img.shields.io/badge/Windows-disabled-lightgrey.svg)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/python.app/badges/version.svg)](https://anaconda.org/conda-forge/python.app)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/python.app/badges/downloads.svg)](https://anaconda.org/conda-forge/python.app)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-python.app-green.svg)](https://anaconda.org/conda-forge/python.app) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/python.app.svg)](https://anaconda.org/conda-forge/python.app) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/python.app.svg)](https://anaconda.org/conda-forge/python.app) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/python.app.svg)](https://anaconda.org/conda-forge/python.app) |
 
 Installing python.app
 =====================
