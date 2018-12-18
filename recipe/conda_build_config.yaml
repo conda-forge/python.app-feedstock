@@ -1,4 +1,4 @@
 channel_sources:
 - conda-forge/label/gcc7,defaults
 channel_targets:
-- conda-forge gcc7
+- conda-forge gcc7 main
