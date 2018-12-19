@@ -1,0 +1,4 @@
+jobs:
+  - template: ./.azure-pipelines/azure-pipelines-osx.yml
+
+  
