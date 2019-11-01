@@ -3,7 +3,7 @@ package:
   version: 1.2
 
 build:
-  number: 1200
+  number: 1201
   skip: True  # [not osx]
 
 requirements:
