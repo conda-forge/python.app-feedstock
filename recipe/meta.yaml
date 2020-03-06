@@ -24,7 +24,8 @@ test:
 
 about:
   home: https://www.python.org/
-  license: PSF
+  license: BSD-3-Clause
+  license_family: BSD
   license_file: LICENSE
   summary: Proxy on OS X letting Python libraries hook into the gui event loop
 
@@ -32,3 +33,4 @@ extra:
   recipe-maintainers:
     - cpbotha
     - ChrisBarker-NOAA
+    - hoechenberger
