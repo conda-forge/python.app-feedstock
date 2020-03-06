@@ -3,7 +3,7 @@ About python.app
 
 Home: https://www.python.org/
 
-Package license: BSD
+Package license: BSD-3-Clause
 
 Feedstock license: BSD 3-Clause
 
@@ -176,4 +176,5 @@ Feedstock Maintainers
 
 * [@ChrisBarker-NOAA](https://github.com/ChrisBarker-NOAA/)
 * [@cpbotha](https://github.com/cpbotha/)
+* [@hoechenberger](https://github.com/hoechenberger/)
 
