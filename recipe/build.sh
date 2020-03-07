@@ -9,7 +9,17 @@ mkdir $APP_DIR
 cp -r $RECIPE_DIR/Contents $APP_DIR
 MACOS_DIR=$APP_DIR/Contents/MacOS
 mkdir -p $MACOS_DIR
-cp $PREFIX/bin/python $MACOS_DIR
+
+# We used to copy over python, which could cause the Python binaries in
+# the `python` and `python.app` packages to diverge, leading to issues
+# (see https://github.com/conda-forge/python.app-feedstock/issues/8)
+# Leave this line here for historical reasons.
+# cp $PREFIX/bin/python $MACOS_DIR
+
+# New approach: create a symlink, so the python binary used in `python.app`
+# (and `pythonw`) will always be the one installed via the `python` package.
+ln -s ../../../bin/python $MACOS_DIR/python
+
 install_name_tool -change "@loader_path/../lib/libpython${PY_VER}.dylib" \
     "$PREFIX/lib/libpython${PY_VER}.dylib" $MACOS_DIR/python
 
