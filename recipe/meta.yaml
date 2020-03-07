@@ -21,6 +21,7 @@ test:
   commands:
     - python.app -V
     - pythonw -V
+    - bash test_versions.sh
 
 about:
   home: https://www.python.org/
