@@ -18,11 +18,9 @@ requirements:
 test:
   files:
     - t.py
-    - test_versions.sh
   commands:
     - python.app -V
     - pythonw -V
-    - bash test_versions.sh
 
 about:
   home: https://www.python.org/
