@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+echo "Running tests to compare python, python.app, pythonw versions..."
+
 PYTHON_VERSION=`python -V`
 PYTHONW_VERSION=`pythonw -V`
 PYTHONAPP_VERSION=`python.app -V`
@@ -14,3 +16,5 @@ elif [ "$PYTHONW_VERSION" != "$PYTHONAPP_VERSION" ]; then
   echo "Version mismatch: pythonw <> python.app"
   exit 1
 fi
+
+echo "...OK."
