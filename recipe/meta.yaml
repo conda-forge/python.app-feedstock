@@ -18,6 +18,7 @@ requirements:
 test:
   files:
     - t.py
+    - test_versions.sh
   commands:
     - python.app -V
     - pythonw -V
