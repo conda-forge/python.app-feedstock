@@ -7,7 +7,7 @@ Package license: BSD-3-Clause
 
 Feedstock license: BSD 3-Clause
 
-Summary: Proxy on OS X letting Python libraries hook into the gui event loop
+Summary: Proxy on macOS letting Python libraries hook into the GUI event loop
 
 
 
