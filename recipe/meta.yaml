@@ -8,6 +8,8 @@ build:
 
 requirements:
   build:
+    - python                                 # [build_platform != target_platform]
+    - cross-python_{{ target_platform }}     # [build_platform != target_platform]
     # add this to force gcc7 builds
     - {{ compiler('c') }}
   host:
