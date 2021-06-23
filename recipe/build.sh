@@ -20,9 +20,6 @@ mkdir -p $MACOS_DIR
 # (and `pythonw`) will always be the one installed via the `python` package.
 ln -s ../../../bin/python $MACOS_DIR/python
 
-${INSTALL_NAME_TOOL:-install_name_tool} -change "@loader_path/../lib/libpython${PY_VER}.dylib" \
-    "$PREFIX/lib/libpython${PY_VER}.dylib" $MACOS_DIR/python
-
 PYAPP=$PREFIX/bin/python.app
 cat <<EOF >$PYAPP
 #!/bin/bash
