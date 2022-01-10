@@ -1,9 +1,9 @@
 package:
   name: python.app
-  version: 1.3
+  version: 1.4
 
 build:
-  number: 6
+  number: 0
   skip: True  # [not osx]
 
 requirements:
