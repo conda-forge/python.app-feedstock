@@ -3,13 +3,14 @@ package:
   version: 1.4
 
 build:
-  number: 3
+  number: 4
   skip: True  # [not osx]
 
 requirements:
   build:
     # add this to force gcc7 builds
     - {{ compiler('c') }}
+    - {{ stdlib("c") }}
   host:
     - python
   run:
